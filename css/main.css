@@ -25,6 +25,7 @@
     font-weight: 800;
     src: url('../fonts/open-sans-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
 /* changa-one-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -48,6 +49,27 @@ body {
     background-color: #fdfffc;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Changa One', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: .75em;
+}
+
+p {
+    line-height: 1.5;
+}
+
 img {
     max-width: 100%;
     height: auto;
@@ -55,10 +77,10 @@ img {
 }
 
 a {
-    color: deeppink;
+    color: #e71d36;
     text-decoration: none;
 }
 
 a:hover {
-    color: darkmagenta;
+    color: #011627;
 }

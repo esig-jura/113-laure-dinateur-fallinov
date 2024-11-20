@@ -177,6 +177,39 @@ footer nav ul img {
 footer nav ul img:hover {
     filter: grayscale(0);
 }
+/* Page accueil */
+.page-accueil ul.realisations {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Active FLEX */
+    flex-wrap: wrap; /* Authorise le saut à la ligne suivante */
+    gap: 40px 20px; /* espace 40px vertical et 20px horizontal */
+}
+
+.page-accueil ul.realisations li {
+    background-color: #e7e9eb;
+    flex-basis: calc(50% - 20px); /* Pas oublier de soustraire la marge (gap) */
+    flex-grow: 1; /* Authorise de prendre plus de place si disponible */
+    transition: transform .2s;
+}
+
+.page-accueil ul.realisations li:hover {
+    transform: scale(1.1);
+}
+
+.page-accueil ul.realisations li a {
+    color: #011627;
+}
+
+.page-accueil ul.realisations li figure {
+    margin: 0;
+}
+
+.page-accueil ul.realisations li figcaption {
+    padding: 10px;
+}
+
+
 
 /* Page infos */
 .page-infos img.laure {
@@ -190,6 +223,8 @@ footer nav ul img:hover {
 .page-infos h1 {
     text-align: center;
 }
+
+
 
 
 

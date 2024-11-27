@@ -223,6 +223,40 @@ footer nav ul img:hover {
     text-align: center;
 }
 
+/* Page de contact */
+
+.page-contact ul.contact {
+    list-style-type: none;
+    padding-left: 15px;
+}
+
+.page-contact ul.contact a {
+    padding-left: 30px; /* Crée l'espace pour la puce image */
+    background-image: url("../img/facebook.png");
+    background-size: 20px 20px ;
+    background-repeat: no-repeat;
+    background-position: 0 2px /* 0px de la gauche 2px du haut */
+}
+
+/* Tous les liens qui commencent par tel */
+.page-contact ul.contact a[href^="tel"] {
+    background-image: url("../img/phone.png");
+}
+/* Tous les liens qui commencent par mailto */
+.page-contact ul.contact a[href^="mailto"] {
+    background-image: url("../img/mail.png");
+}
+
+/* Tous les liens qui contiennent twitter */
+.page-contact ul.contact a[href*="twitter"] {
+    background-image: url("../img/twitter.png");
+}
+
+/* Tous les liens qui se teriminent par .com
+.page-contact ul.contact a[href$=".com"] {
+    background-image: url("../img/twitter-badge.png");
+} */
+
 
 
 

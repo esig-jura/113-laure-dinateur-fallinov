@@ -1,4 +1,3 @@
-/* Importation des polices */
 /* open-sans-regular - latin */
 @font-face {
     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -223,7 +222,6 @@ footer nav ul img:hover {
 .page-infos h1 {
     text-align: center;
 }
-
 
 
 
